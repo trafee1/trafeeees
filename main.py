@@ -170,10 +170,10 @@ SHORT_LINK_REF = os.getenv("SHORT_LINK_TEMPLATE", "").strip()
 
 # Supported ScraperAPI Country Codes
 TIER_1 = [
-    ("US", "us")
+    ("US", "us"), ("CH", "ch"), ("at", "at")
 ]
 TIER_2 = [
-    ("US", "us") 
+    ("US", "us"), ("CH", "ch")
 ]
 TIER_3 = [
     ("FR", "fr"), ("DE", "de"), ("NL", "nl"), ("GB", "gb"), ("US", "us")
